@@ -1,0 +1,60 @@
+{
+  "name": "plywood-proxy",
+  "version": "0.1.0",
+  "description": "A Plywood proxy",
+  "keywords": [
+    "imply",
+    "data",
+    "explorer",
+    "proxy",
+    "visualization",
+    "druid"
+  ],
+  "author": {
+    "name": "Vadim Ogievetsky",
+    "url": "http://vadim.ogievetsky.com"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/implydata/plywood-proxy.git"
+  },
+  "bin": {
+    "plywood-proxy": "bin/plywood-proxy"
+  },
+  "scripts": {
+    "prepublish": "script/prepublish"
+  },
+  "dependencies": {
+    "body-parser": "1.14.1",
+    "chronoshift": "0.3.7",
+    "compression": "1.6.0",
+    "cors": "2.7.1",
+    "debug": "2.2.0",
+    "express": "4.13.3",
+    "express-handlebars": "2.0.1",
+    "fs-promise": "0.3.1",
+    "immutable": "3.7.5",
+    "immutable-class": "0.3.7",
+    "js-yaml": "3.4.6",
+    "morgan": "1.6.1",
+    "nopt": "^3.0.4",
+    "plywood": "0.7.19",
+    "plywood-druid-requester": "1.2.4",
+    "plywood-mysql-requester": "1.1.4",
+    "q": "1.4.1"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "fs-extra": "0.26.2",
+    "gulp": "3.9.0",
+    "gulp-watch": "4.3.5",
+    "laborer": "2.4.2",
+    "mkdirp": "0.5.1",
+    "mocha": "2.3.4",
+    "replace": "0.3.0",
+    "run-sequence": "1.1.5",
+    "sinon": "1.17.2",
+    "underscore": "1.8.3"
+  }
+}
